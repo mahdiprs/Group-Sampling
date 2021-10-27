@@ -44,7 +44,8 @@ Tx_tx_given_ty_NC <-function(N,Nbar,b,ty,l,alpha,beta){
 
 # clustered functions
 phi =function(p,theta,Nbar){
-  phi =  1 - gamma(theta*(1/p - 1) + Nbar)*gamma(theta/p)/(gamma(theta/p + Nbar)*gamma(theta/p - theta))
+  phi =  1 - exp(lgamma(theta*(1/p - 1) + Nbar)+lgamma(theta/p)-(lgamma(theta/p + Nbar)+lgamma(theta/p - theta)))
+# 1 - gamma(theta*(1/p - 1) + Nbar)*gamma(theta/p)/(gamma(theta/p + Nbar)*gamma(theta/p - theta))
   return(phi)
 }
 

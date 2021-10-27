@@ -293,12 +293,12 @@ N= 100000
 # number of units in the sample tested
 n = 9400
 # beta dist parameters
-alpha = .0168
-beta = 248
+alpha = 1
+beta = 100
 # number of units in in a single bulk sample
 Nbar =100
 ty = 0
-theta = 2
+theta = 1
 # number of bulk samples tested bNbar = n
 b=floor(n/Nbar)
 # Number of bulk samples in the population
