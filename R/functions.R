@@ -1,4 +1,8 @@
-# functions for the sampling paper
+##########################################################################
+# Functions to estimate statistics introduced in
+# Sections 3.1 - 3.3 of journal paper
+##########################################################################
+
 library(dplyr)
 library(actuar)
 library(extraDistr)

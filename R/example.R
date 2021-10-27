@@ -1,5 +1,7 @@
-# example
-
+##########################################################################
+# Perform calculations and produce figures for statistics introduced
+# Sections 3.1 - 3.3 of journal paper
+##########################################################################
 ## import functions
 
 source('R/functions.R')
