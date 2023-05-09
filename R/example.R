@@ -6,6 +6,7 @@
 
 source('R/functions.R')
 library(ggplot2)
+
 #################################
 #    setting the model parameters
 #################################
@@ -22,7 +23,7 @@ beta = 248
 # number of units in in a single bulk sample
 Nbar =100
 ty = 0
-# number of bulk samples tested b = Nbar
+# number of bulk samples tested bNbar = n
 b=floor(n/Nbar)
 # Number of bulk samples in the population
 B= floor(N/Nbar)
@@ -300,7 +301,7 @@ beta = 100
 # number of units in in a single bulk sample
 Nbar =100
 ty = 0
-theta = 1
+theta = .5
 # number of bulk samples tested bNbar = n
 b=floor(n/Nbar)
 # Number of bulk samples in the population
@@ -309,7 +310,7 @@ B= floor(N/Nbar)
 #
 
 # set support of pdf
-support <- seq(0.00001, 1, 0.00001)
+support <- seq(0.000001, 1, 0.000001)
 
 # Find the probability densities over the support
 probs <- pfc(support, alpha, beta, theta, Nbar, ty, b)
