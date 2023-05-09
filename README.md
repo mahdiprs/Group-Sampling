@@ -1,5 +1,5 @@
 # Clustered and Unclustered Group Testing for Biosecurity 
-Authors: RG Clark, B Barnes and M Pars
+Authors: RG Clark, B Barnes and M Parsa
 
 Journal: Journal of Agricultural, Biological, and Environmental Statistics (Pending Acceptance)
 
