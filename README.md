@@ -8,5 +8,5 @@ Short Description: This project, currently under review for the Journal of Agric
 # To cite the codes
 
 
-[![DOI](https://zenodo.org/badge/416548185.svg)](https://zenodo.org/badge/latestdoi/416548185)
+[![DOI](https://zenodo.org/badge/7916796.svg)](https://zenodo.org/badge/latestdoi/7916796)
 
